@@ -4,11 +4,11 @@ const contact = require("./src/pages/contact")
 const app = express()
 
 app.get('/',(req,res)=>{
-    res.end('XDD')
+    res.end('Main')
 })
 app.use("/about", about)
 app.use("/contact", contact)
 
 app.listen(3000,()=>{
-    console.log('chuj')
+    console.log('test')
 })
